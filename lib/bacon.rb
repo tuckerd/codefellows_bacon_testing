@@ -6,6 +6,11 @@ class Bacon
 	end
 
   def expired!
-    self.expired = true
+    @expired = true
+  end
+
+  #class methods called by Bacon.yummy
+  def self.yummy?
+  	true
   end
 end
