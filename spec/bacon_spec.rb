@@ -19,7 +19,7 @@ describe "Bacon" do
 
   it "expires when the expired! method is called" do
     subject.expired!
-    subject.should_not be_edible
-    #subject.eduble?should be_false
+    #subject.should_not be_edible
+    subject.eduble?should be_false
   end
 end
